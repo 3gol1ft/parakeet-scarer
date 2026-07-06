@@ -5,8 +5,8 @@
 
 #define MOTOR_PIN 26
 
-#define SERVICE_UUID  "0000ffe0-0000-1000-8000-00805f9b34fb"
-#define CARAC_UUID    "0000ffe1-0000-1000-8000-00805f9b34fb"
+#define SERVICE_UUID  "your service UUID"
+#define CARAC_UUID    "your carac UUID"
 
 volatile bool motorRequested = false;
 bool deviceConnected = false;
