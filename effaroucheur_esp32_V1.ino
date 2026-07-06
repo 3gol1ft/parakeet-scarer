@@ -14,9 +14,9 @@
 #define VOLUME 25          // 0..30
 #define NB_SONS_DEFAUT 3   // secours si la lecture du nombre echoue
 
-#define NOM_BLE             "EFFAROUCHEUR_ESP32"
-#define SERVICE_UUID        "0000ffe0-0000-1000-8000-00805f9b34fb"
-#define CHARACTERISTIC_UUID "0000ffe1-0000-1000-8000-00805f9b34fb"
+#define NOM_BLE             "name"
+#define SERVICE_UUID        "your service uuid"
+#define CHARACTERISTIC_UUID "your characteristic uuid"
 
 HardwareSerial dfSerial(2);
 DFRobotDFPlayerMini dfplayer;
