@@ -4,7 +4,7 @@ Un effaroucheur de perruches doté d'intelligence artificielle : il se compose d
 Contexte : Journée des projets E3E de l'ESIEE PARIS en 2026
 
 <img width="1776" height="890" alt="image" src="https://github.com/user-attachments/assets/6ec508c8-42a0-458c-a27d-8708ca8dced9" />
-
+<img width="1787" height="1003" alt="image" src="https://github.com/user-attachments/assets/cb13827e-9103-4bed-b343-9bf648d20b95" />
 
 # Effaroucheur de perruches — Documentation complète
 
@@ -131,7 +131,7 @@ Arduino UNO Q (client BLE)  <--BLE-->  ESP32 (serveur BLE)
 ```
 
 ---
-<img width="1787" height="1003" alt="image" src="https://github.com/user-attachments/assets/cb13827e-9103-4bed-b343-9bf648d20b95" />
+
 
 ## 4. Structure des fichiers
 
