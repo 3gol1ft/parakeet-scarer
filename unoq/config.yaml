@@ -1,0 +1,33 @@
+# === Reglages centralises de l'effaroucheur de perruches ===
+
+detection:
+  seuil: 0.60        # surete par image
+  n_requis: 2        # images "vues" sur la fenetre pour confirmer
+  fenetre: 5
+  n_perte: 5         # images sans rien avant de relacher
+  cooldown_s: 17.0   # delai mini entre deux sons (sons ~15 s)
+  flou_min: 80        # variance Laplacien en dessous de laquelle l'image est ignoree
+
+camera:
+  largeur: 1280
+  hauteur: 720
+  focus: 20          # mise au point fixe (0..250 selon la distance)
+
+ble:
+  nom: "EFFAROUCHEUR_ESP32"
+  carac_uuid: "0000ffe1-0000-1000-8000-00805f9b34fb"
+
+ble_moteur:
+  nom: "EFFAROUCHEUR_MOTEUR"
+  carac_uuid: "0000ffe1-0000-1000-8000-00805f9b34fb"
+
+web:
+  port: 5000
+
+horaires:
+  debut_nuit: 21   # heure a partir de laquelle la camera s'arrete
+  fin_nuit: 6      # heure de reprise (le BLE reste actif toute la nuit)
+
+chemins:
+  detections: "~/effaroucheur-perruches/unoq/tests_data/detections"
+  journal: "~/effaroucheur-perruches/unoq/tests_data/journal.csv"
